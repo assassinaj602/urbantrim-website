@@ -15,7 +15,7 @@ const ServicesPage = ({ onNavigate }: ServicesPageProps) => {
     { id: 'packages', name: 'Packages', icon: '📦' },
   ];
 
-  const handleServiceBooking = (serviceName: string) => {
+  const handleServiceBooking = (_serviceName: string) => {
     onNavigate('booking');
   };
 
